@@ -13,6 +13,6 @@ void main() {
         System.out.println("hola mundo");
         System.out.println("repaso");
 
-        System.out.println("Oscar Giovanny Moyano Gutierrez") System.out.println("He vprogramado en Python Y en C++")
+        System.out.println("Oscar Giovanny Moyano Gutierrez") System.out.println("He programado en Python Y en C++")
     }
 }
