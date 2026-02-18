@@ -1,20 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+import java.util.Scanner;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+public class Main {
+    public static void main(String[] args){
 
-        System.out.println("hola mundo");
-        System.out.println("repaso");
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Oscar Giovanny Moyano Gutierrez") System.out.println("He programado en Python Y en C++");
+        System.out.println(" digite un numero del 1 al 7: ");
+        int num =  sc.nextInt();
 
-        System.out.println(" la soluciones es arregalr ruta");
+        if (num == 1 ){
+            System.out.println("Lunes");
+        } else if(num == 2){
+            System.out.println("Martes");
+        } else if (num == 3){
+            System.out.println("Miercoles");
+        } else if (num == 4 ){
+            System.out.println("Jueves");
+        } else if ( num == 5){
+            System.out.println("Viernes");
+        } else if ( num == 6){
+            System.out.println("Sabado");
+        } else if  ( num == 7){
+            System.out.println("Domingo");
+        } else {
+            System.out.println(" Numero invalido");
+        }
+           sc.close();
     }
 }
